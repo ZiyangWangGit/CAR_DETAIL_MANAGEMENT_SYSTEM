@@ -4,7 +4,9 @@
 This project implements a desktop application for managing a car detail business. It allows users to view, add, edit, and delete customer records and appointments using a graphical user interface built with Tkinter. The application connects to a MongoDB database to store and retrieve data.
 
 ## Files
-- **car_wash_app.py**: Contains the Python code using Tkinter to create the GUI and MongoDB for database operations.
+- **main.py**: Contains the main application code using Tkinter for GUI and MongoDB for database operations.
+- **customer.py**: Handles customer-related functionalities.
+- **appointment.py**: Manages appointment-related operations.
 - **appointment.json**: Sample JSON file containing appointment data.
 - **customer.json**: Sample JSON file containing customer data.
 
@@ -18,7 +20,9 @@ This project implements a desktop application for managing a car detail business
 - **Search Customer**: Users can search for a customer by name or phone number.
 - **Add Customer**: Users can add a new customer to the database.
 - **Delete Customer**: Users can delete a customer from the database.
-- **View Appointments**: Users can view all future appointments.
+- **View Appointments**: Users can view all the appointment in history.
+- **View Future Appointments**: Users can view all future appointments.
+- **Search Appointment**: Searches for appointments by customer phone number.
 - **Add Appointment**: Users can add a new appointment.
 - **Delete Appointment**: Users can delete an appointment from the database.
 
