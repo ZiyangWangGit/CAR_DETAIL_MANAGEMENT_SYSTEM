@@ -14,13 +14,13 @@ Install Dependencies: Install necessary dependencies by running pip install pymo
 Run the Application: Start the application by running python car_wash_app.py.
 
 ## Features
-View Customers: Users can view detailed information about all customers.
-Search Customer: Users can search for a customer by name or phone number.
-Add Customer: Users can add a new customer to the database.
-Delete Customer: Users can delete a customer from the database.
-View Appointments: Users can view all future appointments.
-Add Appointment: Users can add a new appointment.
-Delete Appointment: Users can delete an appointment from the database.
+- **View Customers**: Users can view detailed information about all customers.
+- **Search Customer**: Users can search for a customer by name or phone number.
+- **Add Customer**: Users can add a new customer to the database.
+- **Delete Customer**: Users can delete a customer from the database.
+- **View Appointments**: Users can view all future appointments.
+- **Add Appointment**: Users can add a new appointment.
+- **Delete Appointment**: Users can delete an appointment from the database.
 
 ## Credits
 Ziyang Wang: Developed the Car Detail Management System application.
