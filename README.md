@@ -9,9 +9,9 @@ This project implements a desktop application for managing a car detail business
 - **customer.json**: Sample JSON file containing customer data.
 
 ## Usage
-Install Python: Make sure Python is installed on your system.
-Install Dependencies: Install necessary dependencies by running pip install pymongo.
-Run the Application: Start the application by running python car_wash_app.py.
+- **Install Python**: Make sure Python is installed on your system.
+- **Install Dependencies**: Install necessary dependencies by running pip install pymongo.
+- **Run the Application**: Start the application by running python car_wash_app.py.
 
 ## Features
 - **View Customers**: Users can view detailed information about all customers.
