@@ -20,7 +20,7 @@ This project implements a desktop application for managing a car detail business
 - **Search Customer**: Users can search for a customer by name or phone number.
 - **Add Customer**: Users can add a new customer to the database.
 - **Delete Customer**: Users can delete a customer from the database.
-- **View Appointments**: Users can view all the appointment in history.
+- **View Past Appointments**: Users can view all the past appointments.
 - **View Future Appointments**: Users can view all future appointments.
 - **Search Appointment**: Searches for appointments by customer phone number.
 - **Add Appointment**: Users can add a new appointment.
