@@ -16,7 +16,7 @@ class AppointmentFunctions:
         self.root = root
         self.info_text = info_text
         self.appointments_collection = appointments_collection
-        self.custom_font = font.Font(family="Helvetica", size=12, weight='bold')
+        self.custom_font = font.Font(family="Poppins", size=12, weight='bold')
 
     def show_history_appointments(self):
         self.info_text.delete('1.0', tk.END)
@@ -28,7 +28,7 @@ class AppointmentFunctions:
                 self.info_text.insert(tk.END, f"Phone: {appointment.get('customerPhone')}\n", 'style')
                 self.info_text.insert(tk.END, f"Vehicle: {appointment.get('car')}\n", 'style')
                 self.info_text.insert(tk.END, f"Appointment: {appointment.get('appointmentDate')} {appointment.get('appointmentTime')}\n\n", 'style')
-                
+
     def show_appointments(self):
         self.info_text.delete('1.0', tk.END)
         current_time = datetime.now().strftime("%Y-%m-%d %H:%M")
